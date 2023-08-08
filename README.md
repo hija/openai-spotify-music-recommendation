@@ -8,10 +8,14 @@ To get started, simply follow these steps:
 1. Sign up and obtain an API key from OpenAI.
 2. Install the necessary dependencies by running `pip install -r requirements.in`.
 3. Create a .env file with the following content:
-    OPENAI_API_KEY="sk..."
-    SPOTIPY_CLIENT_ID=""
-    SPOTIPY_CLIENT_SECRET=""
-    SPOTIPY_REDIRECT_URI="http://127.0.0.1:9090"
+   
+```
+OPENAI_API_KEY="sk..." 
+SPOTIPY_CLIENT_ID="" 
+SPOTIPY_CLIENT_SECRET="" 
+SPOTIPY_REDIRECT_URI="http://127.0.0.1:9090"
+```
+
 4. Run the `main.py` script.
 
 ## How it works in the background ⚙️
